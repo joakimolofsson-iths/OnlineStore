@@ -1,0 +1,34 @@
+﻿@page "/horrorbooks/{id:int}"
+@inject HttpClient httpClient
+@using Models
+
+<h3>HorrorBookDetails</h3>
+
+@if (_horrorBook == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div>
+        <img src="@_horrorBook.ImageUrl" width="400" />
+        <p>Name: @_horrorBook.Name</p>
+        <p>Author: @_horrorBook.Author</p>
+        <p>Description: @_horrorBook.Description</p>
+        <p>Release Year: @_horrorBook.ReleaseYear</p>
+        <p>Pages: @_horrorBook.Pages</p>
+        <p>Rating: @_horrorBook.Rating</p>
+        <p>Award: @_horrorBook.Award</p>
+        <p>Price: $@_horrorBook.Price</p>
+    </div>
+}
+
+@code {
+    [Parameter] public int id { get; set; }
+    private HorrorBook? _horrorBook;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _horrorBook = await httpClient.GetFromJsonAsync<HorrorBook>($"api/horrorbooks/{id}");
+    }
+}

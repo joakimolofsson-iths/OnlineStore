@@ -12,7 +12,10 @@ namespace OnlineStore
             builder.Services.AddRazorComponents()
                 .AddInteractiveServerComponents();
 
-            var app = builder.Build();
+			builder.Services.AddControllers();
+			builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:7165/") });
+
+			var app = builder.Build();
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
@@ -26,11 +29,13 @@ namespace OnlineStore
 
             app.UseAntiforgery();
 
-            app.MapStaticAssets();
+			app.MapStaticAssets();
             app.MapRazorComponents<App>()
                 .AddInteractiveServerRenderMode();
 
-            app.Run();
+			app.MapControllers();
+
+			app.Run();
         }
     }
 }
