@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "The Shining",
+    "author": "Stephen King",
+    "description": "A psychological horror novel by Stephen King, The Shining tells the story of Jack Torrance, an aspiring writer and recovering alcoholic who accepts a position as the off-season caretaker of the historic Overlook Hotel in the Colorado Rockies. His son, Danny, possesses 'the shining,' a psychic ability that allows him to see into the hotel's horrific past. As winter closes in, Jack becomes influenced by the hotel's supernatural forces, descending into madness and endangering his family.",
+    "release_year": 1977,
+    "pages": 447,
+    "rating": 4.8,
+    "award": "Locus Award for Best Novel (1978)",
+    "price": 15.99,
+    "image_url": "/images/book-covers/the-shining.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Dracula",
+    "author": "Bram Stoker",
+    "description": "Bram Stoker's Dracula is a Gothic horror novel that introduced the iconic character Count Dracula and established many conventions of vampire fantasy. The novel tells the story of Jonathan Harker, a solicitor who visits Count Dracula's castle in Transylvania, only to uncover the vampire's plan to spread his undead curse to England. A gripping battle between good and evil unfolds as Professor Van Helsing and his allies attempt to stop Dracula.",
+    "release_year": 1897,
+    "pages": 418,
+    "rating": 4.6,
+    "award": "None",
+    "price": 12.99,
+    "image_url": "/images/book-covers/dracula.jpg"
+  },
+  {
+    "id": 3,
+    "name": "It",
+    "author": "Stephen King",
+    "description": "Stephen King's It is a chilling novel that follows a group of childhood friends in the town of Derry, Maine, as they confront an ancient, shape-shifting evil that takes the form of their worst fears. The creature, often appearing as Pennywise the Clown, preys on the town's children. Decades later, the friends reunite to face their terrifying past and end the entity's reign of terror once and for all.",
+    "release_year": 1986,
+    "pages": 1138,
+    "rating": 4.7,
+    "award": "British Fantasy Award (1987)",
+    "price": 19.99,
+    "image_url": "/images/book-covers/it.jpg"
+  },
+  {
+    "id": 4,
+    "name": "House of Leaves",
+    "author": "Mark Z. Danielewski",
+    "description": "Mark Z. Danielewski's House of Leaves is an experimental horror novel that defies traditional storytelling. The book follows a family that moves into a house that is seemingly larger on the inside than it is on the outside. Through layers of footnotes and unreliable narrators, the novel explores themes of madness, obsession, and existential horror, creating a labyrinthine reading experience that mirrors the house itself.",
+    "release_year": 2000,
+    "pages": 709,
+    "rating": 4.5,
+    "award": "None",
+    "price": 18.99,
+    "image_url": "/images/book-covers/house-of-leaves.jpg"
+  },
+  {
+    "id": 5,
+    "name": "The Haunting of Hill House",
+    "author": "Shirley Jackson",
+    "description": "Shirley Jackson's The Haunting of Hill House is a seminal work of supernatural horror that has inspired generations of horror writers. The novel follows four individuals who spend time in a supposedly haunted mansion to study its supernatural occurrences. As they delve deeper into the mystery, their psychological states unravel, blurring the line between reality and hallucination. The novel is renowned for its ambiguous ending and masterful atmosphere of dread.",
+    "release_year": 1959,
+    "pages": 182,
+    "rating": 4.4,
+    "award": "National Book Award Finalist (1960)",
+    "price": 14.99,
+    "image_url": "/images/book-covers/haunting-of-hill-house.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Pet Sematary",
+    "author": "Stephen King",
+    "description": "A chilling tale of grief and horror, Pet Sematary follows a family who moves to a rural home near an ancient burial ground that has the power to bring the dead back to life—with terrifying consequences.",
+    "release_year": 1983,
+    "pages": 374,
+    "rating": 4.6,
+    "award": "None",
+    "price": 16.99,
+    "image_url": "/images/book-covers/pet-sematary.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Frankenstein",
+    "author": "Mary Shelley",
+    "description": "A pioneering work of horror and science fiction, Frankenstein tells the tragic story of Victor Frankenstein and the monster he creates, exploring themes of ambition, isolation, and responsibility.",
+    "release_year": 1818,
+    "pages": 280,
+    "rating": 4.5,
+    "award": "None",
+    "price": 11.99,
+    "image_url": "/images/book-covers/frankenstein.jpg"
+  },
+  {
+    "id": 8,
+    "name": "The Exorcist",
+    "author": "William Peter Blatty",
+    "description": "Inspired by true events, The Exorcist tells the horrifying tale of a young girl possessed by a demonic entity and the two priests who risk everything to save her soul. A gripping and terrifying story, the novel explores themes of faith, evil, and psychological torment, making it one of the most influential horror novels of all time.",
+    "release_year": 1971,
+    "pages": 340,
+    "rating": 4.7,
+    "award": "None",
+    "price": 17.99,
+    "image_url": "/images/book-covers/the-exorcist.jpg"
+  },
+  {
+    "id": 9,
+    "name": "The Silence of the Lambs",
+    "author": "Thomas Harris",
+    "description": "A psychological horror-thriller novel, The Silence of the Lambs follows FBI trainee Clarice Starling as she seeks the help of the brilliant but psychopathic cannibal, Dr. Hannibal Lecter, to catch a serial killer known as Buffalo Bill. The novel masterfully blends horror, suspense, and crime, making it one of the most influential books in the genre.",
+    "release_year": 1988,
+    "pages": 352,
+    "rating": 4.8,
+    "award": "Bram Stoker Award for Best Novel (1988)",
+    "price": 14.99,
+    "image_url": "/images/book-covers/silence-of-the-lambs.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Hell House",
+    "author": "Richard Matheson",
+    "description": "A chilling haunted house novel, Hell House follows a team of investigators as they attempt to uncover the secrets of the infamous Belasco House, a mansion with a terrifying history of supernatural occurrences. As they delve deeper into the mystery, they encounter malevolent spirits and psychological horrors that challenge their sanity and survival.",
+    "release_year": 1971,
+    "pages": 304,
+    "rating": 4.5,
+    "award": "None",
+    "price": 13.99,
+    "image_url": "/images/book-covers/hell-house.jpg"
+  }
+]
